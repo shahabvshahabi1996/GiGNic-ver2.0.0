@@ -1,0 +1,25 @@
+{
+  "name": "mybootstrap",
+  "version": "1.0.0",
+  "description": "i just make it for my works it's a bootstrap for my works",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahabvshahabi1996/Flat-Button---Bootstrap-4.git"
+  },
+  "author": "Shahab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahabvshahabi1996/Flat-Button---Bootstrap-4/issues"
+  },
+  "homepage": "https://github.com/shahabvshahabi1996/Flat-Button---Bootstrap-4#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0"
+  }
+}

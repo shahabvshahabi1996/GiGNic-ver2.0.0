@@ -1,0 +1,254 @@
+@import "bootstrap.less";
+@import "font.less";
+@import "myvar.less";
+body{
+    background: url('../img/ballon2.png') center center fixed no-repeat;
+    overflow-x: hidden;
+}
+.content{
+    text-align: center;
+    padding-top :120px;
+    font-weight: 10;
+    margin-bottom : 320px + 10;
+}
+.features{
+    background-color: #252525;
+    padding-top: 20px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    h4{
+        text-align: center;
+        font-size: 30px;
+        background-color: #ffe13e;
+        padding-top : 20px;
+        padding-bottom: 20px;
+        font-style : bold;
+        /*.box-shadow(0 10px 20px darken(#252525,50%));*/
+    }
+    h5{
+        color:#ffe13e;
+        font-size:25px;
+        text-align: center;
+    }
+    p{
+        font-size:16px;
+        color:#fff;
+        text-align: center;
+        line-height: 1.5;
+        margin-left: 20px;
+        margin-right: 20xp;
+    }
+    img{
+       display: block;
+       margin: 0 auto 0 ;
+    }
+}
+.symbols{
+    margin-bottom: 10px;
+    h4{
+        text-align: center;
+        font-size: 30px;
+        font-style: bold;
+        
+    }
+    img{
+        display: block;
+        margin : 0 auto 0;
+        height: 270px;
+        width: 150px;
+    }
+    .symbol_img_1{
+        float : left;
+    }
+    .symbol_img_3{
+        float: right;
+    }
+}
+.footer{
+    background-color: #ffe13e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    h4{
+        text-align: center;
+    }
+    a{
+        color:darken(palevioletred,10%);
+        font-style : bold;
+        font-size:20px;
+        text-decoration: underline;
+    }
+}
+.rules_content{
+    margin-left: 40px;
+    margin-right: 40px;
+   
+    .rules{
+        background-color: #252525;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 5px;
+        margin-top : 5px;
+    }
+    h5{
+       color:#ffe13e;
+       font-size:20px;
+    }
+    p{
+       text-align: justify;
+       color:#fff;
+       font-size:16px;
+       line-height: 1.5;
+    }
+}
+.contact_us{
+    text-align: center;
+    margin-top:-20px;
+    color :#252525;
+    .contact_form{
+        padding-top : 130px;
+        padding-bottom: 130px;
+        font-size:30px;
+        background-color: #428bca;
+        opacity: 0.7;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        &:hover{
+           opacity: 1;
+         }
+    }
+    .contact_telegram{
+        .contact_form;
+       cursor: pointer;
+        background-color: #5bc0de;
+    }
+    .contact_telephone{
+        .contact_form;
+        cursor: default;
+         background-color: #f0ad4e;
+    }
+    .contact_address{
+       .contact_form;
+       padding-top:8px;
+       padding-bottom: 8px;
+       font-size : 16px;
+       cursor: default;
+       background-color: @brand-success;
+    }
+}
+.host_content{
+    margin-top:-20px;
+    .Host_Panel_header{
+        text-align: center;
+        background-color: @brand-warning;
+        padding-top:10px;
+        padding-bottom: 10px;
+        color:#fff;
+    }
+}
+.VPS_Panel_header{
+     text-align: center;
+        padding-top:10px;
+        padding-bottom: 10px;
+        color:#fff;
+    background-color: @brand-success;
+}
+.personal_server_header{
+    text-align: center;
+        padding-top:10px;
+        padding-bottom: 10px;
+        color:#fff;
+    background-color: @brand-info;
+}
+.Direct_Admin_header{
+     text-align: center;
+        padding-top:10px;
+        padding-bottom: 10px;
+        color:#fff;
+    background-color: @brand-primary;
+}
+.panel{
+	border : none;
+    transition: all 0.5s ease-in-out;
+}
+.panel:hover{
+    box-shadow: 5px 3px 5px 1px #777;
+}
+.panel-body p {
+	border : none;
+}
+.panel-footer {
+			color: #fff;
+			border-bottom:0px;
+			background-color:  rgba(0,0,0, .1);
+			box-shadow: 0px 3px 0px rgba(0,0,0, .3);
+		}
+
+.price.panel-green>.panel-heading {
+			color: #fff;
+			background-color: #57AC57;
+			border-color: #71DF71;
+			border-bottom: 1px solid #71DF71;
+		}
+.price.panel-red>.panel-heading {
+			color: #fff;
+			background-color: #D04E50;
+			border-color: #FF6062;
+			border-bottom: 1px solid #FF6062;
+		}
+.price.panel-blue>.panel-heading {
+			color: #fff;
+			background-color: #608BB4;
+			border-color: #78AEE1;
+			border-bottom: 1px solid #78AEE1;
+		}
+.price.panel-black>.panel-heading{
+            color: #fff;
+			background-color: #333;
+			border-color: #555;
+			border-bottom: 1px solid #777;
+}
+.price.panel-black>.panel-body{
+	color:#fff;
+	background-color: #777;
+}
+.price.panel-blue>.panel-body{
+	color:#fff;
+	background-color: #73A3D4;
+}
+.price.panel-green>.panel-body{
+	color:#fff;
+	background-color:#65C965;
+}
+.price.panel-red>.panel-body {
+			color: #fff;
+			background-color: #EF5A5C;
+		}
+.panel-body{
+	text-align: center;
+	margin : 0 auto 0 ;
+}
+.list-group-item{
+	text-align: center;
+	padding-left : 50px;
+}
+.list{
+	
+	
+	display: block;
+	font-size:15pt;
+}
+.list-group{
+	border-bottom-color:#252525;
+}
+.special_service_btn{
+    background-color: #333;
+    color:#fff;
+    border : #333;
+    opacity: 0.8;
+}
+.special_service_btn:hover{
+    opacity: 1;
+    background-color: #333;
+}
